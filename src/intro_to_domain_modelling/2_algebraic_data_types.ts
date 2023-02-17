@@ -1,7 +1,5 @@
 // # Algebraic Data Types (ADT)
 
-import { unsafe } from "bun";
-
 // ### Sum Types (OR)
 
 type Player = "PlayerOne" | "PlayerTwo";

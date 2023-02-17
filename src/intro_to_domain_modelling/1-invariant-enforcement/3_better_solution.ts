@@ -1,35 +1,3 @@
-// Invariant enforcement
-
-// 1st Try
-
-{
-  type points = number;
-
-  type score = {
-    playerOne: points;
-    playerTwo: points;
-  };
-
-  let s: score = {
-    playerOne: 1000,
-    playerTwo: -15,
-  };
-}
-
-// 2nd Try
-
-{
-  type points = "Love" | "Fifteen" | "Thirty" | "Forty";
-
-  type score = {
-    playerOne: points;
-    playerTwo: points;
-  };
-
-  let s2: score = { playerOne: "Fifteen", playerTwo: "Love" };
-  let even: score = { playerOne: "Forty", playerTwo: "Forty" };
-}
-
 // Better Solution
 
 {

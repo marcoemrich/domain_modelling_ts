@@ -1,6 +1,20 @@
 {
-  "name": "typescript",
-  "version": "0.0.0",
-  "private": true,
-  "dependencies": {}
+  "name": "domain_modelling_with_ts",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run"
+  },
+  "devDependencies": {
+    "@vitest/ui": "latest",
+    "bun-types": "^0.4.0",
+    "vite": "latest",
+    "vitest": "^0.27.1"
+  },
+  "dependencies": {
+    "ts-option": "^2.1.0",
+    "typescript": "^4.9.5"
+  }
 }

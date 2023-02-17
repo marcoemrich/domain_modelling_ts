@@ -1,4 +1,4 @@
-// # Tactical Design Pattern and idioms: Outside-In
+// Tactical Design Pattern and idioms: Outside-In
 
 // Model with Abstract Types
 
@@ -9,8 +9,8 @@ type Money = unknown;
 
 type customer = {
   name: Name;
-  addressList: Address[];
+  buildingsList: Building[];
 };
 
-type Address = unknown;
+type Building = unknown;
 type Name = unknown;

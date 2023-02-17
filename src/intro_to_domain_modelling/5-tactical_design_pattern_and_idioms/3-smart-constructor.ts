@@ -1,6 +1,8 @@
 import { Option, none, some } from "ts-option";
 
-// # Tactical Design Pattern and idioms: Smart Constructor
+// Tactical Design Pattern and idioms
+
+// Smart Constructor
 
 type ShortName = { kind: "ShortName"; value: string }; /* Business Contraint: Length < 20 */
 type MakeShortName = (name: string) => Option<ShortName>;

@@ -1,4 +1,4 @@
-// # Tactical Design Pattern and idioms
+// Tactical Design Pattern and idioms: prefer unions
 
 // Model values explicitly
 

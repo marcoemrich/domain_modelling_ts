@@ -1,9 +1,8 @@
-// # Tactical Design Pattern and idioms
+// Tactical Design Pattern and idioms
+
+// Model State Changes explicitly!
 
 import { Option } from "ts-option";
-
-// Model State Changes explicitly!
-// Model State Changes explicitly!
 
 /* Bad Idea */
 {

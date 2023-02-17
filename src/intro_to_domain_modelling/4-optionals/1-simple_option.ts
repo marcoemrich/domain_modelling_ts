@@ -1,8 +1,9 @@
 // Model  Null-Values explicitly!
 
 {
-  // type Maybe<T> = T | undefined
   type MaybeNumber = number | undefined;
+  // type Option<T> = T | undefined
+  // MaybeNumber = Option<number>;
 
   type reciprocalF = (n: number) => MaybeNumber;
   const reciprocal: reciprocalF = (n) => (n == 0.0 ? undefined : n);
@@ -22,12 +23,12 @@
 }
 
 {
-  type Maybe<T> = T | undefined;
+  type Option<T> = T | undefined;
   type Name = unknown;
   type Phone = unknown;
 
   type customer = {
     name: Name;
-    phone: Maybe<Phone>;
+    phone: Option<Phone>;
   };
 }

@@ -1,12 +1,10 @@
 // Invariant enforcement
-// 1st Try
+// 0th Try
 
 {
-  type points = number;
-
   type score = {
-    playerOne: points;
-    playerTwo: points;
+    playerOne: number;
+    playerTwo: number;
   };
 
   let s: score = {

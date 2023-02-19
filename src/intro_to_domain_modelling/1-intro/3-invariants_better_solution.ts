@@ -1,3 +1,4 @@
+// Invariant enforcement
 // Better Solution
 
 {

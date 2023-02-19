@@ -1,3 +1,5 @@
+// Invariant enforcement
+
 // 2nd Try
 
 {

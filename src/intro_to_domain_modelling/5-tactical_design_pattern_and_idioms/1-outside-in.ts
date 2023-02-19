@@ -2,7 +2,7 @@
 
 // Model with Abstract Types
 
-type calcRealEstate = (customer: customer) => RealEstateValue;
+type CalcRealEstate = (customer: customer) => RealEstateValue;
 
 type RealEstateValue = Money;
 type Money = unknown;
